@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+AML Management Agent
+A smart automation tool to help Indian regulatory authorities, financial analysts, and businesses seamlessly track, analyze, and act on financial transactions to prevent money laundering.
 
-## Getting Started
+🚀 User Journey
+Sign-In & Onboarding
 
-First, run the development server:
+Users (regulators, analysts, compliance officers) authenticate using secure PAN/Aadhaar/eKYC credentials.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Guided setup customizes dashboard to individual roles (Enforcement, Audit, Business Compliance).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Unified Dashboard
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+View real-time feeds from PAN-Aadhaar linkage, GSTN, banking transactions, and regulatory alerts.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Interactive charts highlight flagged activities, STRs, and anomaly trends across accounts and businesses.
 
-## Learn More
+Automated Monitoring
 
-To learn more about Next.js, take a look at the following resources:
+The agent scans incoming transaction data, regulatory filings, and inter-agency reports using machine learning and rule-based logic.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Suspicious activities are automatically flagged, generating alerts and recommendations for further review.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Case Management
 
-## Deploy on Vercel
+Users can investigate alerts: drill down into transaction histories, compare across multiple data streams (banking, GST, KYC, etc.).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Add notes, assign cases, and collaborate securely within teams.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Reporting & Compliance
+
+Generate instant compliance reports (PMLA-STR, regulatory submissions) with one click.
+
+Audit trails and activity logs available for internal and external review.
+
+🛠️ Agent Features
+Real-time analytics: Automated detection of suspicious transaction patterns.
+
+Multi-source integration: PAN, Aadhaar, GSTN, banking, and FIU-IND/ED/RBI feeds.
+
+Role-based alerts: Custom notifications and escalation for regulators and businesses.
+
+Secure collaboration: Case assignments and agency coordination.
+
+Audit-ready reporting: Compliance with PMLA and FATF standards.
+
+👤 Who Should Use This?
+Government regulatory bodies (FIU-IND, ED, RBI)
+
+Financial institution compliance teams
+
+Audit, risk, and investigative professionals
+
+💡 Example Use Case
+“A compliance officer logs in and reviews the latest flagged transactions detected by the agent’s analytics. Suspicious cross-border payments are instantly escalated, supporting regulatory action and real-time reporting—all within the same dashboard.”
+
+📦 Getting Started
+Clone the repo
+git clone 
+
+Follow the onboarding instructions in the /docs/quickstart.md
+
+Integrate your data sources and start monitoring!
